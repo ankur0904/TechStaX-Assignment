@@ -179,7 +179,9 @@ def batch_train_model(model, preprocessor, X, y, batch_size=1000):
         ![alt text](image/image-4.png)
 
 6. **Other Important Analyses**
+
 ![alt text](image/image-5.png)
+
 ![alt text](<image/Screenshot from 2025-01-15 16-59-19.png>)
 
 ## Usage Examples
