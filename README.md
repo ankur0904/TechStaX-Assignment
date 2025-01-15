@@ -147,37 +147,40 @@ def batch_train_model(model, preprocessor, X, y, batch_size=1000):
 ## Results and Insights
 
 1. **Severity of Accidents**
-        - The dataset contains 6,000,000 instances of accidents classified with a severity level of 2.
+
+- The dataset contains 6,000,000 instances of accidents classified with a severity level of 2.
         ![alt text](image/image.png)
 
 2. **Accident Analysis**
-        - Peak accident hours: 7AM, 8AM, 4PM, 5PM.
-        - Most accidents occur on weekdays.
-        - Most accidents happen in November, December, January, February.
-        - Most accidents are of severity level 2.
+
+- Peak accident hours: 7AM, 8AM, 4PM, 5PM.
+- Most accidents occur on weekdays.
+- Most accidents happen in November, December, January, February.
+- Most accidents are of severity level 2.
         ![alt text](image/image-1.png)
 
 3. **Weather Contribution**
-        - Most accidents happen in fair weather conditions.
-        - Most severe accidents (level 4) occur in light blowing snow.
+- Most accidents happen in fair weather conditions.
+- Most severe accidents (level 4) occur in light blowing snow.
         ![alt text](image/image-2.png)
 
 4. **State-wise Accident Analysis**
-        - California has the highest number of accidents.
-        - South Dakota has the highest number of severe accidents (level 4).
+- California has the highest number of accidents.
+- South Dakota has the highest number of severe accidents (level 4).
         ![alt text](image/image-3.png)
 
 5. **Heatmap Analysis**
-        - Shows correlation between features.
-        - High correlation features:
-                - Start_Lat and End_Lat
-                - Start_Lng and End_Lng
-                - Temperature(F) and Wind_Chill(F)
+
+- Shows correlation between features.
+- High correlation features:
+    1. Start_Lat and End_Lat
+    2. Start_Lng and End_Lng
+    3.  Temperature(F) and Wind_Chill(F)
         ![alt text](image/image-4.png)
 
 6. **Other Important Analyses**
-        ![alt text](image/image-5.png)
-        ![alt text](<image/Screenshot from 2025-01-15 16-59-19.png>)
+![alt text](image/image-5.png)
+![alt text](<image/Screenshot from 2025-01-15 16-59-19.png>)
 
 ## Usage Examples
 
